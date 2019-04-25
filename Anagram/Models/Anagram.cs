@@ -18,7 +18,7 @@ namespace Anagram.Models
 
     public void ConvertString()
     {
-      // return _myArray;
+      return _singleWord.ToArray();
     }
   }
 }

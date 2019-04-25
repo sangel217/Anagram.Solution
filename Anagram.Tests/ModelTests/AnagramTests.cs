@@ -36,7 +36,7 @@ namespace Anagram.Tests
     public void ConvertString_ConvertToArray_Array()
     {
       string inputWord = "Goodbye";
-      char[] myArray = inputWord.ToArray();
+      char[] myArray = inputWord.ConvertString();
       char[] result = myArray;
       Assert.AreEqual(myArray, result);
     }
